@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+
+body {
+    background-color: #474e5d;
+    font-family: Helvetica, sans-serif;
+    padding: 100px;
+    font-family: 'Arvo', serif;
+  }
+  ul{
+    padding: 0;
+    list-style-type: none;
+  }
+  summary {
+    outline:0;
+   }
+   summary:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+summary:hover > span{
+    color: rgb(35, 134, 201);
+}
+a{
+       color: rgb(35, 134, 201);
+       text-decoration:  none;
+}
+cite{
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+}
+
+.main-title{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header-wrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    background-color: #fff;    
+    justify-content: space-between;
+   
+}
+.header-img{
+    max-height: 300px; 
+    margin:  0 40px ;
+}
+
+
+.header-context{
+   margin: 0 40px ;
+   width: 100%;
+   justify-self: center;
+} 
+
+.resume{
+    width: 60%;
+    margin:0 40px;
+   text-align: justify;
+}
+
+
+
+.header-context-list{
+        
+    line-height: 22px;
+    color: rgb(35, 134, 201);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header-contact-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-contact-element > img{
+    
+    margin-right: 5px;
+}
+
+
+.main-wrap{
+    display: flex;
+    background-color: #fff;    
+    width: 100%;
+}
+
+
+.time-line-information{
+    
+    display: flex;
+}
+
+.time-line-list{
+    line-height: 1.6rem;
+}
+
+
+.time-line-paragraphe{
+    font-style: italic;
+}
+.time-line{
+    width: 100%;
+    padding: 40px;
+
+}
+.additional-information{
+    width: 100%;
+    padding-top: 40px;
+   
+}
+.additional-information-wrap{
+    display: flex;
+    align-items: center;
+}
+.additional-information-wrap > img{
+    margin-left: 5px;
+    
+}
+.additional-information-list > p{
+    margin: 0;
+    
+}
